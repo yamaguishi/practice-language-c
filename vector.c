@@ -1,4 +1,10 @@
 #include <stdio.h>
+
+/*
+Write a program that read a 10-element vector, counts,
+and displays how many even values it contains.
+*/
+
 int main(){
     int vector[10];
     int counter = 0;
@@ -14,7 +20,7 @@ int main(){
         }
     }
 
-    printf("Quantidades de numeros pares: %d\n", counter);
+    printf("The number of even values is: %d\n", counter);
 
 
     return 0;
